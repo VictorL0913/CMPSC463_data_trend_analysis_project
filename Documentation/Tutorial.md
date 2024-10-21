@@ -6,7 +6,7 @@ This tutorial will guide you through using the Financial Data Analyzer, a Python
 
 ## Prerequisites
 
-Before you begin, ensure you have Python 3.7 or later installed on your system.
+Before you begin, you need Python 3.7 or later installed on your system.
 
 ### Required Libraries
 
