@@ -77,7 +77,4 @@ The text report includes:
 - Ensure all required libraries are installed correctly.
 - Check that your API key is entered correctly and has not expired.
 
-## Conclusion
-
-You've now learned how to use the Financial Data Analyzer to fetch and analyze stock data. Experiment with different stock symbols and time ranges to gain insights into various stocks' performance.
 
