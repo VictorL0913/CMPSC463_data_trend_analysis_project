@@ -1,0 +1,12 @@
+
+Stock Price Analysis for AMZN
+Date Range: 2024-05-29 to 2024-10-18
+Starting Price: $182.02
+Ending Price: $188.99
+Overall Change: 3.83%
+
+Maximum Gain Period: 2024-08-06 to 2024-09-24
+Maximum Return: 19.14%
+
+Anomalies Analysis
+Number of anomalies detected: 0

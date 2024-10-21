@@ -209,7 +209,7 @@ Number of anomalies detected: {len(self.anomalies)}
         with open(os.path.join(report_folder, f'{self.symbol}_report.txt'), 'w') as f:
             f.write(report_text)
 
-        # Create anomalies plot if anomalies were detected
+        # Create anomalies plot if anomalies were found
         if not self.anomalies.empty:
             plt.figure(figsize=(14, 10))
             plt.plot(self.sorted_data.index, self.sorted_data['Closing'], label='Close Price')
@@ -220,7 +220,7 @@ Number of anomalies detected: {len(self.anomalies)}
             plt.legend(fontsize=10)
             plt.grid(True, linestyle='--', alpha=0.7)
             
-            # Add annotations for anomalies
+            # Add labels for anomalies
             for date, price in self.anomalies.items():
                 plt.annotate(f'${price:.2f}', (date, price), 
                              textcoords="offset points", xytext=(0,10), ha='center', fontsize=9)
@@ -237,7 +237,7 @@ if __name__ == "__main__":
         API_KEY = '5FFF9XIWKC05HMB5'  # API key for Alpha Vantage
         analyzer = FinancialDataAnalyzer(API_KEY)  
 
-        symbol = 'VZ'  # stock symbol
+        symbol = 'BA'  # stock symbol
         analyzer.fetch_data(symbol)  # Fetch data for the symbol
         analyzer.sort_data()  # Sort the fetched data
         analyzer.find_max_subarray()  # Find the maximum subarray (period of maximum gain)

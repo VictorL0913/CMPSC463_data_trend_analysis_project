@@ -1,0 +1,15 @@
+
+Stock Price Analysis for MSFT
+Date Range: 2024-05-29 to 2024-10-18
+Starting Price: $429.17
+Ending Price: $418.16
+Overall Change: -2.57%
+
+Maximum Gain Period: 2024-06-04 to 2024-07-05
+Maximum Return: 12.39%
+
+Anomalies Analysis
+Number of anomalies detected: 2
+Top 5 anomalies:
+2024-05-29    429.17
+2024-05-30    414.67

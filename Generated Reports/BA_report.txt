@@ -1,0 +1,12 @@
+
+Stock Price Analysis for BA
+Date Range: 2024-05-29 to 2024-10-18
+Starting Price: $171.65
+Ending Price: $155.00
+Overall Change: -9.70%
+
+Maximum Gain Period: 2024-05-29 to 2024-07-31
+Maximum Return: 11.17%
+
+Anomalies Analysis
+Number of anomalies detected: 0

@@ -1,0 +1,12 @@
+
+Stock Price Analysis for AAPL
+Date Range: 2024-05-29 to 2024-10-18
+Starting Price: $190.29
+Ending Price: $235.00
+Overall Change: 23.50%
+
+Maximum Gain Period: 2024-05-29 to 2024-10-18
+Maximum Return: 22.36%
+
+Anomalies Analysis
+Number of anomalies detected: 0

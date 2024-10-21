@@ -1,0 +1,15 @@
+
+Stock Price Analysis for VZ
+Date Range: 2024-05-29 to 2024-10-18
+Starting Price: $39.10
+Ending Price: $43.99
+Overall Change: 12.51%
+
+Maximum Gain Period: 2024-07-24 to 2024-10-01
+Maximum Return: 15.44%
+
+Anomalies Analysis
+Number of anomalies detected: 2
+Top 5 anomalies:
+2024-05-30    40.33
+2024-05-29    39.10
