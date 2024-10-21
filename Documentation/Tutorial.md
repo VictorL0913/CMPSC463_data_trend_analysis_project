@@ -45,7 +45,7 @@ You can install these libraries using pip: pip install numpy pandas matplotlib r
 3. By default, the script will analyze the stock symbol 'VZ' (Verizon). To analyze a different stock, modify the `symbol` variable in the main execution block:
 
    ```python
-   symbol = 'AAPL'  # Change to your desired stock symbol
+   symbol = 'AAPL'  # Change to your desired stock symbol e.g. Apple
    ```
 
 4. The script will fetch data, perform analysis, and generate reports. You'll see output in the console indicating the progress.
