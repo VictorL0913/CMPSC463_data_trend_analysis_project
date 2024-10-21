@@ -6,7 +6,7 @@ This tutorial will guide you through using the Financial Data Analyzer, a Python
 
 ## Prerequisites
 
-Before you begin, you need Python 3.7 or later installed on your system.
+Before you begin, ensure you have Python 3.7 or later installed on your system.
 
 ### Required Libraries
 
@@ -42,17 +42,17 @@ You can install these libraries using pip: pip install numpy pandas matplotlib r
    python financial_analyzer.py
    ```
 
-3. By default, the script will analyze the stock symbol 'VZ' (Verizon). To analyze a different stock, modify the `symbol` variable in the main execution block:
+3. By default, the script will analyze the stock symbol 'VZ' (Verizon). To analyze a different stock, modify the `symbol` variable in the main block:
 
    ```python
-   symbol = 'AAPL'  # Change to your desired stock symbol e.g. Apple
+   symbol = 'AAPL'  # Change to your desired stock symbol
    ```
 
 4. The script will fetch data, perform analysis, and generate reports. You'll see output in the console indicating the progress.
 
 5. Once complete, check the "Generated Reports" folder for the following files:
    - `{symbol}_stock_graph.png`: A graph of the stock's closing prices over time.
-   - `{symbol}_anomalies_graph.png`: A graph highlighting any detected anomalies in the stock price.
+   - `{symbol}_anomalies_graph.png`: A graph highlighting any detected anomalies in the stock price (will only be created if anomalies are found).
    - `{symbol}_report.txt`: A text report summarizing the analysis.
 
 ## Understanding the Reports
@@ -77,4 +77,7 @@ The text report includes:
 - Ensure all required libraries are installed correctly.
 - Check that your API key is entered correctly and has not expired.
 
+## Conclusion
+
+You've now learned how to use the Financial Data Analyzer to fetch and analyze stock data. Experiment with different stock symbols and time ranges to gain insights into various stocks' performance.
 
