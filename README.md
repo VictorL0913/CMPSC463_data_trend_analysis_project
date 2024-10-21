@@ -25,6 +25,7 @@ The primary goals of this analysis are to:
 ### Financial Datasets
 
 This project utilizes stock price data obtained from the Alpha Vantage API. Considerations for the dataset include:
+- https://www.alphavantage.co/documentation/
 - Daily closing prices are used as the primary metric for analysis
 - The system is designed to handle time-series data with date-indexed entries
 - Data is limited to approximately the last 100 trading days due to API constraints
