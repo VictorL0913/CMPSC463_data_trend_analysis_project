@@ -237,7 +237,7 @@ if __name__ == "__main__":
         API_KEY = '5FFF9XIWKC05HMB5'  # API key for Alpha Vantage
         analyzer = FinancialDataAnalyzer(API_KEY)  
 
-        symbol = 'MSFT'  # stock symbol
+        symbol = 'VZ'  # stock symbol
         analyzer.fetch_data(symbol)  # Fetch data for the symbol
         analyzer.sort_data()  # Sort the fetched data
         analyzer.find_max_subarray()  # Find the maximum subarray (period of maximum gain)
