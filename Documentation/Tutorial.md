@@ -17,8 +17,10 @@ You'll need to install the following Python libraries:
 - matplotlib
 - requests
 
-You can install these libraries using pip: pip install numpy pandas matplotlib requests
-
+You can install these libraries using pip: 
+```
+pip install numpy pandas matplotlib requests
+```
 
 ## Getting Started
 
@@ -73,11 +75,7 @@ The text report includes:
 
 ## Troubleshooting
 
-- If you encounter a "rate limit exceeded" error, wait a few minutes before trying again. The free API key has usage limits.
+- If you encounter a "rate limit exceeded" error, wait a few minutes before trying again. The free API key has usage limits (25 calls per day).
 - Ensure all required libraries are installed correctly.
 - Check that your API key is entered correctly and has not expired.
-
-## Conclusion
-
-You've now learned how to use the Financial Data Analyzer to fetch and analyze stock data. Experiment with different stock symbols and time ranges to gain insights into various stocks' performance.
 
